@@ -1,0 +1,13 @@
+{application, eredis_connpool,
+ [
+  {description, "Redis connections pool"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    eredis
+  ]},
+  {mod, { eredis_connpool_app, []}},
+  {env, []}
+ ]}.
