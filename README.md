@@ -1,5 +1,7 @@
 Erlang Redis Client Pool for eredis
 
+    dependents: git://github.com/wooga/eredis.git
+
 Examples
 ========
 
