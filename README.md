@@ -16,7 +16,7 @@ application:start(eredis_connpool).
 
 ```erlang
 {ok, <<"OK">>} = eredisq:set("foo", "bar").
-{ok, <<"bar">>} = eredisq:get("foo")).
+{ok, <<"bar">>} = eredisq:get("foo").
 
 {ok, <<"OK">>} = eredisq:mset(["foo", "bar", "foo2", "bar2"])).
 {ok, [<<"bar">>, <<"bar2">>]} = eredisq:mget(["foo", "foo2"])).
